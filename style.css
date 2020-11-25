@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#3287ae;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.heading{
+  background-color: #373738;
+  color: #efeff2;
+  padding: 1em;
+}
+
+img{
+  height:400px;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  font-family: 'B612 Mono', monospace;
+
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.button{
+    height: 25px;
+    width: 100px;
+    background-color: #5dabef;
+    border: 2px solid gainsboro
+    ;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.content {
+  background-color: #272b30;
+  padding: 10px;
+  color: white;
+}
+
+nav{
+  background-color: #272b30;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #272b30;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
